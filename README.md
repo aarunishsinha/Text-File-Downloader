@@ -21,6 +21,9 @@ In this project, I have used thread to experiment with:
 - Variation with the download speed on increasing the number of TCP connections. 
 
 ![alt text](https://github.com/aarunishsinha/Text-File-Downloader/blob/main/plot1.png)
+- Time taken by each TCP connection.
+
+![alt text](https://github.com/aarunishsinha/Text-File-Downloader/blob/main/Figure_1.png)
 - Change in download speed on spreading the connections between different servers.
 
 In case a TCP connection breaks, the thread does not end but tries to open a new connection. Whenever a new connection succeeds, the thread resumes to download more chunks. 
